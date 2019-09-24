@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gao"
+        android:onClick="AddToCart"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:onClick="AddToCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bo" />
+
+    <Button
+        android:id="@+id/button3"
+        android:onClick="AddToCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tao" />
+
+    <Button
+        android:id="@+id/button4"
+        android:onClick="AddToCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/thanh_long" />
+
+    <Button
+        android:id="@+id/button5"
+        android:onClick="AddToCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xoai" />
+
+    <Button
+        android:id="@+id/button6"
+        android:onClick="AddToCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nhan" />
+
+    <Button
+        android:id="@+id/button7"
+        android:onClick="AddToCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chom_chom" />
+
+    <Button
+        android:id="@+id/button8"
+        android:onClick="AddToCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/thit" />
+
+    <Button
+        android:id="@+id/button9"
+        android:onClick="AddToCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tra_sua" />
+
+    <Button
+        android:id="@+id/button10"
+        android:onClick="AddToCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wiki" />
+</LinearLayout>
